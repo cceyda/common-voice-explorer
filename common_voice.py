@@ -16,12 +16,12 @@ import plotly.express as px
 # TODO show audio stats
 # TODO speed better caching
 
-# hide_menu_style = """
-#         <style>
-#         #MainMenu {visibility: hidden;}
-#         </style>
-#         """
-# st.markdown(hide_menu_style, unsafe_allow_html=True)
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 @st.cache(suppress_st_warning=True)
 def cache_graph(dat,y,x,color=None):
