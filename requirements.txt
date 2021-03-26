@@ -1,0 +1,6 @@
+datasets
+pandas
+numpy
+streamlit
+streamlit-aggrid
+plotly
