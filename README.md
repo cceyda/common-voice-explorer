@@ -1,6 +1,7 @@
 # Common Voice Dataset Explorer
 [Common Voice Dataset](https://commonvoice.mozilla.org/en/datasets) is by Mozilla
 
+![demo image](https://github.com/cceyda/common-voice-explorer/blob/main/demo.jpg?raw=true)
 
 Made during [huggingface finetuning week](https://discuss.huggingface.co/t/open-to-the-community-xlsr-wav2vec2-fine-tuning-week-for-low-resource-languages/4467)
 
