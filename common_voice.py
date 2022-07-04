@@ -108,7 +108,7 @@ if attributes:
     # chart_data = chart_data.replace(r'^\s+$', "UNK", regex=True)
     stats=chart_data.groupby(attributes).size().reset_index(name='counts')
 
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
 
     if len(attributes)>1:
         color=attributes[1]
