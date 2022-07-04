@@ -5,3 +5,4 @@ streamlit
 streamlit-aggrid
 plotly
 soundfile
+torchaudio
